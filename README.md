@@ -76,7 +76,7 @@ Vite will:
 
 * All app state lives in the `DogViewer` page component:
   * No Redux, Zustand, or Context needed for an app of this size to reduce the complexity
-  * If the app grows a global store or React Context could be added later without breaking the existing components.
+  * If the app grows a global store or React Context could be added later without breaking the existing components
 
 ### 3. Simple Data Model
 
@@ -85,22 +85,22 @@ Vite will:
   * `url` → what image to show
   * `breed` → display-friendly breed name parsed from the URL
 * Parsing the breed from the image URL:
-  * Avoids extra API calls.
+  * Avoids extra API calls
 
 ### 4. Error Handling & Loading States
 
-* Booleans and nullable strings (`isLoading`, `errorMessage`) are used for simple yet explicit state management.
+* Booleans and nullable strings (`isLoading`, `errorMessage`) are used for simple state management
 * Allows the UI to clearly represent:
 
   * Loading state
   * Error message when fetch fails
   * Normal state when data is loaded
-* This separation keeps the render logic clear and easy to extend (e.g., adding retry buttons, toasts, etc.).
+* This separation keeps the render logic clear and easy to extend 
 
 ### 6. Accessibility Considerations
 
-* Thumbnails and controls are implemented using `<button>` elements and `aria-label` attributes where appropriate.
-* Images include `alt` text based on the parsed breed.
-* This improves keyboard navigation and screen reader support with almost no extra complexity.
+* Thumbnails and controls are implemented using `<button>` elements and `aria-label` attributes where appropriate
+* Images include `alt` text based on the parsed breed
+* This improves keyboard navigation and screen reader support with almost no extra complexity
 
 
