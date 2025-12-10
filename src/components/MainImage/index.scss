@@ -1,0 +1,18 @@
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  .main-image {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 4px;
+    object-fit: contain;
+  }
+  .image-caption {
+    font-size: 0.8rem;
+    color: #666;
+  }
+}

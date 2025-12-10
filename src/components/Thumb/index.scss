@@ -1,0 +1,29 @@
+.thumb-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  object-fit: contain;
+}
+.thumb-caption {
+  font-size: 0.8rem;
+  color: #666;
+}
+.thumb-container {
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+  }
+  &.active {
+    border: 1px solid #000;
+  }
+}
