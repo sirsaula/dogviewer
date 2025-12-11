@@ -1,5 +1,7 @@
+<img width="671" height="377" alt="Screenshot 2025-12-11 at 14 53 35" src="https://github.com/user-attachments/assets/b40cfa9a-a170-4cd3-8049-af4504048361" />
 
 ---
+
 
 
 # Dog Viewer 🐶
